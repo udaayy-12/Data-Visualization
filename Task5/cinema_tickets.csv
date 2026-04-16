@@ -1,0 +1,51 @@
+TicketID,MovieName,TheatreName,City,ShowDate,ShowTime,SeatType,TicketPrice,PaymentMode,BookingStatus
+T001,Leo,PVR Cinemas,Chennai,2026-03-01,10:00 AM,Gold,180,UPI,Confirmed
+T002,Salaar,INOX,Hyderabad,2026-03-01,01:30 PM,Silver,150,Card,Confirmed
+T003,Jawan,AGS Cinemas,Chennai,2026-03-02,04:00 PM,Platinum,250,UPI,
+T004,Animal,PVR Cinemas,Bangalore,2026-03-02,07:00 PM,Gold,,NetBanking,Confirmed
+T005,Vikram,INOX,Coimbatore,2026-03-03,,Silver,140,Cash,Confirmed
+T006,Master,AGS Cinemas,,2026-03-03,01:00 PM,Gold,180,UPI,Confirmed
+T007,RRR,PVR Cinemas,Hyderabad,2026-03-04,04:30 PM,,260,Card,Confirmed
+T008,Kantara,INOX,Bangalore,2026-03-04,07:30 PM,Gold,190,,Confirmed
+T009,Pushpa,PVR Cinemas,Chennai,2026-03-05,11:00 AM,Silver,160,NetBanking,Cancelled
+T010,Baahubali,INOX,Hyderabad,,02:00 PM,Platinum,300,Card,Confirmed
+T011,Sita Ramam,AGS Cinemas,Chennai,2026-03-06,05:00 PM,Gold,170,UPI,Confirmed
+T012,KGF 2,PVR Cinemas,Bangalore,2026-03-06,08:00 PM,Platinum,280,Card,
+T013,Drishyam 2,INOX,Coimbatore,2026-03-07,10:15 AM,Silver,150,Cash,Confirmed
+T014,Pathaan,PVR Cinemas,Hyderabad,2026-03-07,01:45 PM,Gold,190,UPI,Confirmed
+T015,,AGS Cinemas,Chennai,2026-03-08,04:15 PM,Silver,160,Card,Cancelled
+T016,Jailer,PVR Cinemas,Bangalore,2026-03-08,07:45 PM,Platinum,290,UPI,Confirmed
+T017,Thunivu,INOX,Chennai,2026-03-09,11:30 AM,Gold,,NetBanking,Confirmed
+T018,Avatar 2,PVR Cinemas,Hyderabad,2026-03-09,02:30 PM,Platinum,350,Card,Confirmed
+T019,Interstellar,,Bangalore,2026-03-10,05:30 PM,Gold,220,UPI,Confirmed
+T020,Inception,PVR Cinemas,Chennai,2026-03-10,08:30 PM,Platinum,300,,Confirmed
+T021,Leo,PVR Cinemas,Chennai,2026-03-11,10:00 AM,Gold,185,UPI,Confirmed
+T022,Salaar,INOX,Hyderabad,2026-03-11,01:30 PM,Silver,155,Card,Confirmed
+T023,Jawan,AGS Cinemas,Chennai,2026-03-12,04:00 PM,Platinum,255,UPI,Confirmed
+T024,Animal,PVR Cinemas,Bangalore,2026-03-12,07:00 PM,Gold,210,NetBanking,Cancelled
+T025,Vikram,INOX,Coimbatore,2026-03-13,10:30 AM,Silver,145,Cash,Confirmed
+T026,Master,AGS Cinemas,Chennai,2026-03-13,01:00 PM,Gold,185,UPI,Confirmed
+T027,RRR,PVR Cinemas,Hyderabad,2026-03-14,04:30 PM,Platinum,265,Card,Confirmed
+T028,Kantara,INOX,Bangalore,2026-03-14,07:30 PM,Gold,195,UPI,Confirmed
+T029,Pushpa,PVR Cinemas,Chennai,2026-03-15,11:00 AM,Silver,165,NetBanking,Cancelled
+T030,Baahubali,INOX,Hyderabad,2026-03-15,02:00 PM,Platinum,305,Card,Confirmed
+T031,Sita Ramam,AGS Cinemas,Chennai,2026-03-16,05:00 PM,Gold,175,UPI,Confirmed
+T032,KGF 2,PVR Cinemas,Bangalore,2026-03-16,08:00 PM,Platinum,285,Card,Confirmed
+T033,Drishyam 2,INOX,Coimbatore,2026-03-17,10:15 AM,Silver,150,Cash,
+T034,Pathaan,PVR Cinemas,Hyderabad,2026-03-17,01:45 PM,Gold,195,UPI,Confirmed
+T035,Varisu,AGS Cinemas,Chennai,2026-03-18,04:15 PM,Silver,,Card,Cancelled
+T036,Jailer,PVR Cinemas,Bangalore,2026-03-18,07:45 PM,Platinum,295,UPI,Confirmed
+T037,Thunivu,INOX,Chennai,2026-03-19,11:30 AM,Gold,180,NetBanking,Confirmed
+T038,Avatar 2,PVR Cinemas,Hyderabad,2026-03-19,02:30 PM,Platinum,355,Card,Confirmed
+T039,Interstellar,INOX,Bangalore,2026-03-20,05:30 PM,Gold,225,UPI,Confirmed
+T040,Inception,PVR Cinemas,Chennai,2026-03-20,08:30 PM,Platinum,310,NetBanking,Confirmed
+T041,Leo,PVR Cinemas,Chennai,2026-03-21,10:00 AM,Gold,190,UPI,Confirmed
+T042,Salaar,INOX,Hyderabad,2026-03-21,01:30 PM,Silver,160,Card,Confirmed
+T043,Jawan,AGS Cinemas,Chennai,2026-03-22,04:00 PM,Platinum,260,UPI,Cancelled
+T044,Animal,PVR Cinemas,Bangalore,2026-03-22,07:00 PM,Gold,215,NetBanking,Confirmed
+T045,Vikram,INOX,Coimbatore,2026-03-23,10:30 AM,Silver,150,Cash,Confirmed
+T046,Master,AGS Cinemas,Chennai,2026-03-23,01:00 PM,Gold,190,UPI,
+T047,RRR,PVR Cinemas,Hyderabad,2026-03-24,04:30 PM,Platinum,270,Card,Confirmed
+T048,Kantara,INOX,Bangalore,2026-03-24,07:30 PM,Gold,200,UPI,Confirmed
+T049,Pushpa,PVR Cinemas,Chennai,2026-03-25,11:00 AM,Silver,170,NetBanking,Cancelled
+T050,Baahubali,INOX,Hyderabad,2026-03-25,02:00 PM,Platinum,320,Card,Confirmed
