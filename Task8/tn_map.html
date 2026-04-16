@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc61a2aa86ec73b48fc6f2a7f53350a9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fc61a2aa86ec73b48fc6f2a7f53350a9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fc61a2aa86ec73b48fc6f2a7f53350a9 = L.map(
+                "map_fc61a2aa86ec73b48fc6f2a7f53350a9",
+                {
+                    center: [11.1271, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a2e29844a13f69935f19c6bbbe0f289c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a2e29844a13f69935f19c6bbbe0f289c.addTo(map_fc61a2aa86ec73b48fc6f2a7f53350a9);
+        
+    
+            var marker_52f26ae0dd70c3cdeef56db89ed6e606 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_fc61a2aa86ec73b48fc6f2a7f53350a9);
+        
+    
+        var popup_0e7f485f3ca56abb8feb8c512c807558 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b01c0bd49da38e4c53622cc6aa87e79 = $(`<div id="html_1b01c0bd49da38e4c53622cc6aa87e79" style="width: 100.0%; height: 100.0%;">Coimbatore: 1050721</div>`)[0];
+                popup_0e7f485f3ca56abb8feb8c512c807558.setContent(html_1b01c0bd49da38e4c53622cc6aa87e79);
+            
+        
+
+        marker_52f26ae0dd70c3cdeef56db89ed6e606.bindPopup(popup_0e7f485f3ca56abb8feb8c512c807558)
+        ;
+
+        
+    
+    
+            var marker_b458b7553a9167aaa5ab1c5d67493eda = L.marker(
+                [9.9252, 78.1198],
+                {
+}
+            ).addTo(map_fc61a2aa86ec73b48fc6f2a7f53350a9);
+        
+    
+        var popup_ad6eb488f0be25b98a8a6d1c48a4499b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aec09602c18b0e2f4880b38567faf4ce = $(`<div id="html_aec09602c18b0e2f4880b38567faf4ce" style="width: 100.0%; height: 100.0%;">Madurai: 1017865</div>`)[0];
+                popup_ad6eb488f0be25b98a8a6d1c48a4499b.setContent(html_aec09602c18b0e2f4880b38567faf4ce);
+            
+        
+
+        marker_b458b7553a9167aaa5ab1c5d67493eda.bindPopup(popup_ad6eb488f0be25b98a8a6d1c48a4499b)
+        ;
+
+        
+    
+    
+            var marker_7870ff3f4c3eeed6ed17eb64138b1ea6 = L.marker(
+                [10.7905, 78.7047],
+                {
+}
+            ).addTo(map_fc61a2aa86ec73b48fc6f2a7f53350a9);
+        
+    
+        var popup_fd155a2cc2c33c695bd383fffc5576d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f688f3e8e7fa80b1885fd51cffcae88 = $(`<div id="html_1f688f3e8e7fa80b1885fd51cffcae88" style="width: 100.0%; height: 100.0%;">Tiruchirappalli: 847387</div>`)[0];
+                popup_fd155a2cc2c33c695bd383fffc5576d8.setContent(html_1f688f3e8e7fa80b1885fd51cffcae88);
+            
+        
+
+        marker_7870ff3f4c3eeed6ed17eb64138b1ea6.bindPopup(popup_fd155a2cc2c33c695bd383fffc5576d8)
+        ;
+
+        
+    
+    
+            var marker_2bbf739b9f040c749b3ccf2fa9317017 = L.marker(
+                [11.6643, 78.146],
+                {
+}
+            ).addTo(map_fc61a2aa86ec73b48fc6f2a7f53350a9);
+        
+    
+        var popup_d74e576c8012d91cfd5474d043eb8424 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ede00aa6fa01597fedba763a01cec899 = $(`<div id="html_ede00aa6fa01597fedba763a01cec899" style="width: 100.0%; height: 100.0%;">Salem: 829267</div>`)[0];
+                popup_d74e576c8012d91cfd5474d043eb8424.setContent(html_ede00aa6fa01597fedba763a01cec899);
+            
+        
+
+        marker_2bbf739b9f040c749b3ccf2fa9317017.bindPopup(popup_d74e576c8012d91cfd5474d043eb8424)
+        ;
+
+        
+    
+    
+            var marker_97e17a5c3bcfd380398c3b8a31e2e0af = L.marker(
+                [11.1085, 77.3411],
+                {
+}
+            ).addTo(map_fc61a2aa86ec73b48fc6f2a7f53350a9);
+        
+    
+        var popup_d227c8292423c49469138e81c7967d34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8313dd513e03076291e38218cc3885c1 = $(`<div id="html_8313dd513e03076291e38218cc3885c1" style="width: 100.0%; height: 100.0%;">Tiruppur: 444352</div>`)[0];
+                popup_d227c8292423c49469138e81c7967d34.setContent(html_8313dd513e03076291e38218cc3885c1);
+            
+        
+
+        marker_97e17a5c3bcfd380398c3b8a31e2e0af.bindPopup(popup_d227c8292423c49469138e81c7967d34)
+        ;
+
+        
+    
+</script>
+</html>
